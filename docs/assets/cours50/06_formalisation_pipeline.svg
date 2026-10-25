@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="345" viewBox="0 0 1200 345" role="img" aria-labelledby="title desc">
+<title id="title">Pipeline d’interprétation d’une phrase RATISS</title><desc id="desc">Diagramme pédagogique du cours RATISS, sans prétention de preuve physique.</desc><defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#60758a"/></marker>
+      <style>
+        text{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#14213d}
+        .title{font-size:25px;font-weight:750}.sub{font-size:15px;fill:#52657a}
+        .label{font-size:17px;font-weight:700}.small{font-size:14px;fill:#52657a}
+        .tiny{font-size:12px;fill:#52657a}.math{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:16px;font-weight:650}
+        .box{fill:#ffffff;stroke:#d4dee8;stroke-width:2}.line{stroke:#60758a;stroke-width:3;fill:none}
+        .teal{fill:#e3f5f1;stroke:#2a9d8f;stroke-width:2}.blue{fill:#e8f0ff;stroke:#3971c6;stroke-width:2}
+        .orange{fill:#fff0e9;stroke:#e76f51;stroke-width:2}.node{fill:#ffffff;stroke:#1d3557;stroke-width:3}
+      </style>
+    </defs>
+<rect width="1200" height="345" rx="22" fill="#f6f8fb"/>
+
+<text x="42" y="44" class="title">Le graphe d’interprétation : de la phrase à une formulation propre</text>
+<text x="42" y="70" class="sub">On avance dans l’ordre; si un champ est inconnu, on le marque « à définir », on ne l’invente pas.</text>
+<g transform="translate(40,118)">
+  <rect x="0" y="0" width="170" height="118" rx="16" class="blue"/><text x="18" y="31" class="label">1 · Domaine</text><text x="18" y="61" class="small">où ?</text><text x="18" y="93" class="math">D</text>
+  <line x1="176" y1="59" x2="205" y2="59" class="line" marker-end="url(#arrow)"/>
+  <rect x="215" y="0" width="170" height="118" rx="16" class="teal"/><text x="233" y="31" class="label">2 · Objets</text><text x="233" y="61" class="small">que regarde-t-on ?</text><text x="233" y="93" class="math">V, G, K ou X</text>
+  <line x1="391" y1="59" x2="420" y2="59" class="line" marker-end="url(#arrow)"/>
+  <rect x="430" y="0" width="170" height="118" rx="16" class="orange"/><text x="448" y="31" class="label">3 · Relations</text><text x="448" y="61" class="small">quel type ?</text><text x="448" y="93" class="math">E ou Γ</text>
+  <line x1="606" y1="59" x2="635" y2="59" class="line" marker-end="url(#arrow)"/>
+  <rect x="645" y="0" width="170" height="118" rx="16" class="blue"/><text x="663" y="31" class="label">4 · Calcul</text><text x="663" y="61" class="small">graphe ? Hₖ ?</text><text x="663" y="93" class="math">VR, Hₖ, …</text>
+  <line x1="821" y1="59" x2="850" y2="59" class="line" marker-end="url(#arrow)"/>
+  <rect x="860" y="0" width="170" height="118" rx="16" class="teal"/><text x="878" y="31" class="label">5 · Échelle</text><text x="878" y="61" class="small">degré + unité</text><text x="878" y="93" class="math">k, λ, ε</text>
+  <line x1="1036" y1="59" x2="1065" y2="59" class="line" marker-end="url(#arrow)"/>
+  <rect x="1075" y="0" width="90" height="118" rx="16" class="orange"/><text x="1090" y="31" class="label">6</text><text x="1087" y="62" class="small">statut</text><text x="1087" y="91" class="tiny">source</text>
+</g>
+<text x="42" y="286" class="math">[domaine ; objet ; relations ; opération ; degré/échelle ; statut]</text>
+<text x="42" y="314" class="small">Phrase claire → structure déclarée → calcul reproductible → conclusion limitée au protocole</text>
+</svg>

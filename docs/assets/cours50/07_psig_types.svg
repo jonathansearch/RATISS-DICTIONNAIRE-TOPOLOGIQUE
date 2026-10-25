@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="365" viewBox="0 0 1200 365" role="img" aria-labelledby="title desc">
+<title id="title">Différents sens du nom historique P_sig</title><desc id="desc">Diagramme pédagogique du cours RATISS, sans prétention de preuve physique.</desc><defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#60758a"/></marker>
+      <style>
+        text{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#14213d}
+        .title{font-size:25px;font-weight:750}.sub{font-size:15px;fill:#52657a}
+        .label{font-size:17px;font-weight:700}.small{font-size:14px;fill:#52657a}
+        .tiny{font-size:12px;fill:#52657a}.math{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:16px;font-weight:650}
+        .box{fill:#ffffff;stroke:#d4dee8;stroke-width:2}.line{stroke:#60758a;stroke-width:3;fill:none}
+        .teal{fill:#e3f5f1;stroke:#2a9d8f;stroke-width:2}.blue{fill:#e8f0ff;stroke:#3971c6;stroke-width:2}
+        .orange{fill:#fff0e9;stroke:#e76f51;stroke-width:2}.node{fill:#ffffff;stroke:#1d3557;stroke-width:3}
+      </style>
+    </defs>
+<rect width="1200" height="365" rx="22" fill="#f6f8fb"/>
+
+<text x="42" y="44" class="title">Un nom historique peut cacher plusieurs calculs</text>
+<text x="42" y="70" class="sub">Avant de comparer deux valeurs, vérifier construction, unités, source et version.</text>
+<rect x="430" y="102" width="340" height="62" rx="18" class="orange"/><text x="530" y="141" class="label">P_sig · nom source</text>
+<line x1="600" y1="164" x2="160" y2="220" class="line"/><line x1="600" y1="164" x2="380" y2="220" class="line"/><line x1="600" y1="164" x2="600" y2="220" class="line"/><line x1="600" y1="164" x2="820" y2="220" class="line"/><line x1="600" y1="164" x2="1040" y2="220" class="line"/>
+<g>
+<rect x="40" y="218" width="210" height="84" rx="15" class="blue"/><text x="75" y="250" class="math">L₁^max</text><text x="63" y="278" class="small">plus longue barre H₁</text>
+<rect x="270" y="218" width="210" height="84" rx="15" class="teal"/><text x="305" y="250" class="math">L₁^sum</text><text x="292" y="278" class="small">somme des barres H₁</text>
+<rect x="490" y="218" width="210" height="84" rx="15" class="orange"/><text x="518" y="250" class="math">A_τ^norm</text><text x="519" y="278" class="small">aire de trajectoire</text>
+<rect x="710" y="218" width="210" height="84" rx="15" class="blue"/><text x="760" y="250" class="math">S_Bloch</text><text x="737" y="278" class="small">rayon moyen de Bloch</text>
+<rect x="930" y="218" width="210" height="84" rx="15" class="teal"/><text x="955" y="250" class="math">Γ^phase</text><text x="956" y="278" class="small">relation de phase</text>
+</g>
+<text x="42" y="334" class="label" fill="#e76f51">Même étiquette ≠ même mesure. Chercher la définition avant toute comparaison.</text>
+</svg>

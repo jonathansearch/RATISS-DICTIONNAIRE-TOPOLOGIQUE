@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-labelledby="title desc">
+<title id="title">Différence entre graphe et complexe simplicial</title><desc id="desc">Diagramme pédagogique du cours RATISS, sans prétention de preuve physique.</desc><defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#60758a"/></marker>
+      <style>
+        text{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#14213d}
+        .title{font-size:25px;font-weight:750}.sub{font-size:15px;fill:#52657a}
+        .label{font-size:17px;font-weight:700}.small{font-size:14px;fill:#52657a}
+        .tiny{font-size:12px;fill:#52657a}.math{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:16px;font-weight:650}
+        .box{fill:#ffffff;stroke:#d4dee8;stroke-width:2}.line{stroke:#60758a;stroke-width:3;fill:none}
+        .teal{fill:#e3f5f1;stroke:#2a9d8f;stroke-width:2}.blue{fill:#e8f0ff;stroke:#3971c6;stroke-width:2}
+        .orange{fill:#fff0e9;stroke:#e76f51;stroke-width:2}.node{fill:#ffffff;stroke:#1d3557;stroke-width:3}
+      </style>
+    </defs>
+<rect width="1200" height="370" rx="22" fill="#f6f8fb"/>
+
+<text x="42" y="44" class="title">Même contour, deux constructions possibles</text>
+<text x="42" y="70" class="sub">La figure seule ne dit pas si l’intérieur est rempli.</text>
+<g transform="translate(60,108)">
+  <rect x="0" y="0" width="485" height="190" rx="18" class="box"/><text x="24" y="34" class="label">Graphe : arêtes seulement</text>
+  <line x1="140" y1="75" x2="85" y2="145" stroke="#e76f51" stroke-width="5"/><line x1="85" y1="145" x2="195" y2="145" stroke="#e76f51" stroke-width="5"/><line x1="195" y1="145" x2="140" y2="75" stroke="#e76f51" stroke-width="5"/>
+  <circle cx="140" cy="75" r="13" class="node"/><circle cx="85" cy="145" r="13" class="node"/><circle cx="195" cy="145" r="13" class="node"/>
+  <text x="220" y="100" class="small">3 sommets,</text><text x="220" y="124" class="small">3 arêtes,</text><text x="220" y="148" class="small">aucune face déclarée.</text>
+  <rect x="535" y="0" width="545" height="190" rx="18" class="box"/><text x="559" y="34" class="label">Complexe : face triangulaire incluse</text>
+  <polygon points="690,75 635,145 745,145" fill="#d9f2ed" stroke="#2a9d8f" stroke-width="5"/>
+  <circle cx="690" cy="75" r="13" class="node"/><circle cx="635" cy="145" r="13" class="node"/><circle cx="745" cy="145" r="13" class="node"/>
+  <text x="785" y="100" class="small">mêmes sommets + arêtes,</text><text x="785" y="124" class="small">et le 2-simplexe</text><text x="785" y="148" class="math">{A,B,C}.</text>
+</g>
+<text x="60" y="328" class="small">À retenir : pour calculer H₁, il faut savoir si les faces qui remplissent les boucles sont présentes.</text>
+</svg>

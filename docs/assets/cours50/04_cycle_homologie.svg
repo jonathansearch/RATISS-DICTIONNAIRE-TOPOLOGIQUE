@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="385" viewBox="0 0 1200 385" role="img" aria-labelledby="title desc">
+<title id="title">Cycle, remplissage et homologie H1</title><desc id="desc">Diagramme pédagogique du cours RATISS, sans prétention de preuve physique.</desc><defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#60758a"/></marker>
+      <style>
+        text{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#14213d}
+        .title{font-size:25px;font-weight:750}.sub{font-size:15px;fill:#52657a}
+        .label{font-size:17px;font-weight:700}.small{font-size:14px;fill:#52657a}
+        .tiny{font-size:12px;fill:#52657a}.math{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:16px;font-weight:650}
+        .box{fill:#ffffff;stroke:#d4dee8;stroke-width:2}.line{stroke:#60758a;stroke-width:3;fill:none}
+        .teal{fill:#e3f5f1;stroke:#2a9d8f;stroke-width:2}.blue{fill:#e8f0ff;stroke:#3971c6;stroke-width:2}
+        .orange{fill:#fff0e9;stroke:#e76f51;stroke-width:2}.node{fill:#ffffff;stroke:#1d3557;stroke-width:3}
+      </style>
+    </defs>
+<rect width="1200" height="385" rx="22" fill="#f6f8fb"/>
+
+<text x="42" y="44" class="title">Cycle et trou : la question est « est-ce que ça se remplit ? »</text>
+<text x="42" y="70" class="sub">Exemple triangulaire-jouet; coefficients modulo 2 pour le calcul à la main.</text>
+<g transform="translate(50,104)">
+  <rect x="0" y="0" width="460" height="188" rx="18" class="box"/><text x="22" y="34" class="label">A · Contour non rempli</text>
+  <line x1="150" y1="70" x2="95" y2="140" stroke="#e76f51" stroke-width="5"/><line x1="95" y1="140" x2="205" y2="140" stroke="#e76f51" stroke-width="5"/><line x1="205" y1="140" x2="150" y2="70" stroke="#e76f51" stroke-width="5"/>
+  <circle cx="150" cy="70" r="12" class="node"/><circle cx="95" cy="140" r="12" class="node"/><circle cx="205" cy="140" r="12" class="node"/>
+  <text x="245" y="92" class="small">cycle présent;</text><text x="245" y="119" class="math">β₁ = 1</text><text x="245" y="146" class="tiny">dans ce complexe-jouet</text>
+  <rect x="490" y="0" width="540" height="188" rx="18" class="box"/><text x="512" y="34" class="label">B · Triangle plein</text>
+  <polygon points="650,70 595,140 705,140" fill="#d9f2ed" stroke="#2a9d8f" stroke-width="5"/>
+  <circle cx="650" cy="70" r="12" class="node"/><circle cx="595" cy="140" r="12" class="node"/><circle cx="705" cy="140" r="12" class="node"/>
+  <text x="755" y="92" class="small">le cycle est le bord d’une face;</text><text x="755" y="119" class="math">β₁ = 0</text><text x="755" y="146" class="tiny">car il est rempli ici</text>
+</g>
+<rect x="50" y="311" width="1030" height="48" rx="13" fill="#e8f0ff" stroke="#3971c6" stroke-width="2"/>
+<text x="72" y="341" class="math">H₁(K)=Z₁(K)/B₁(K)</text><text x="345" y="341" class="small">cycles / ceux qui sont des bords de faces</text>
+</svg>

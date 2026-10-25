@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="365" viewBox="0 0 1200 365" role="img" aria-labelledby="title desc">
+<title id="title">Filtration de Vietoris-Rips et barre de persistance</title><desc id="desc">Diagramme pédagogique du cours RATISS, sans prétention de preuve physique.</desc><defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#60758a"/></marker>
+      <style>
+        text{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#14213d}
+        .title{font-size:25px;font-weight:750}.sub{font-size:15px;fill:#52657a}
+        .label{font-size:17px;font-weight:700}.small{font-size:14px;fill:#52657a}
+        .tiny{font-size:12px;fill:#52657a}.math{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:16px;font-weight:650}
+        .box{fill:#ffffff;stroke:#d4dee8;stroke-width:2}.line{stroke:#60758a;stroke-width:3;fill:none}
+        .teal{fill:#e3f5f1;stroke:#2a9d8f;stroke-width:2}.blue{fill:#e8f0ff;stroke:#3971c6;stroke-width:2}
+        .orange{fill:#fff0e9;stroke:#e76f51;stroke-width:2}.node{fill:#ffffff;stroke:#1d3557;stroke-width:3}
+      </style>
+    </defs>
+<rect width="1200" height="365" rx="22" fill="#f6f8fb"/>
+
+<text x="42" y="44" class="title">Vietoris–Rips : on augmente ε et on regarde ce qui apparaît</text>
+<text x="42" y="70" class="sub">Carré-jouet : côté = 1; diagonale = √2. La distance est l’échelle du dessin.</text>
+<g transform="translate(48,100)">
+  <rect x="0" y="0" width="330" height="172" rx="16" class="box"/><text x="20" y="30" class="label">ε &lt; 1</text><text x="20" y="52" class="small">points seuls</text>
+  <circle cx="112" cy="80" r="10" class="node"/><circle cx="212" cy="80" r="10" class="node"/><circle cx="212" cy="142" r="10" class="node"/><circle cx="112" cy="142" r="10" class="node"/>
+  <line x1="345" y1="88" x2="385" y2="88" class="line" marker-end="url(#arrow)"/>
+  <rect x="395" y="0" width="330" height="172" rx="16" class="box"/><text x="415" y="30" class="label">ε = 1</text><text x="415" y="52" class="small">le contour apparaît</text>
+  <line x1="485" y1="80" x2="585" y2="80" stroke="#2a9d8f" stroke-width="4"/><line x1="585" y1="80" x2="585" y2="142" stroke="#2a9d8f" stroke-width="4"/><line x1="585" y1="142" x2="485" y2="142" stroke="#2a9d8f" stroke-width="4"/><line x1="485" y1="142" x2="485" y2="80" stroke="#2a9d8f" stroke-width="4"/>
+  <circle cx="485" cy="80" r="10" class="node"/><circle cx="585" cy="80" r="10" class="node"/><circle cx="585" cy="142" r="10" class="node"/><circle cx="485" cy="142" r="10" class="node"/>
+  <line x1="740" y1="88" x2="780" y2="88" class="line" marker-end="url(#arrow)"/>
+  <rect x="790" y="0" width="330" height="172" rx="16" class="box"/><text x="810" y="30" class="label">ε = √2</text><text x="810" y="52" class="small">diagonales + faces</text>
+  <polygon points="880,80 980,80 980,142" fill="#d9f2ed" stroke="#2a9d8f" stroke-width="3"/><polygon points="880,80 980,142 880,142" fill="#e8f0ff" stroke="#3971c6" stroke-width="3"/>
+  <line x1="880" y1="80" x2="980" y2="142" stroke="#3971c6" stroke-width="4"/>
+  <circle cx="880" cy="80" r="10" class="node"/><circle cx="980" cy="80" r="10" class="node"/><circle cx="980" cy="142" r="10" class="node"/><circle cx="880" cy="142" r="10" class="node"/>
+</g>
+<text x="50" y="303" class="label">Barre H₁ du carré-jouet</text>
+<line x1="260" y1="298" x2="785" y2="298" stroke="#e76f51" stroke-width="10" stroke-linecap="round"/><line x1="260" y1="280" x2="260" y2="316" stroke="#14213d" stroke-width="3"/><line x1="785" y1="280" x2="785" y2="316" stroke="#14213d" stroke-width="3"/>
+<text x="245" y="338" class="small">naissance 1</text><text x="747" y="338" class="small">mort √2</text><text x="870" y="303" class="math">[1,√2)</text>
+</svg>

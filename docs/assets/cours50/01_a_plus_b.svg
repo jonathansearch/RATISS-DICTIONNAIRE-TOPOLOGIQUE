@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+<title id="title">Calcul de a plus b</title><desc id="desc">Diagramme pédagogique du cours RATISS, sans prétention de preuve physique.</desc><defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#60758a"/></marker>
+      <style>
+        text{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#14213d}
+        .title{font-size:25px;font-weight:750}.sub{font-size:15px;fill:#52657a}
+        .label{font-size:17px;font-weight:700}.small{font-size:14px;fill:#52657a}
+        .tiny{font-size:12px;fill:#52657a}.math{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:16px;font-weight:650}
+        .box{fill:#ffffff;stroke:#d4dee8;stroke-width:2}.line{stroke:#60758a;stroke-width:3;fill:none}
+        .teal{fill:#e3f5f1;stroke:#2a9d8f;stroke-width:2}.blue{fill:#e8f0ff;stroke:#3971c6;stroke-width:2}
+        .orange{fill:#fff0e9;stroke:#e76f51;stroke-width:2}.node{fill:#ffffff;stroke:#1d3557;stroke-width:3}
+      </style>
+    </defs>
+<rect width="1200" height="340" rx="22" fill="#f6f8fb"/>
+
+<text x="42" y="44" class="title">Une lettre, c’est une case : on y met une valeur</text>
+<text x="42" y="70" class="sub">On remplace les lettres par les nombres donnés, puis on calcule.</text>
+<g transform="translate(100,108)">
+  <rect x="0" y="0" width="180" height="82" rx="16" class="blue"/><text x="68" y="36" class="label">a = 2</text><text x="37" y="62" class="small">première case</text>
+  <text x="208" y="54" class="title">+</text>
+  <rect x="250" y="0" width="180" height="82" rx="16" class="teal"/><text x="318" y="36" class="label">b = 3</text><text x="287" y="62" class="small">deuxième case</text>
+  <line x1="447" y1="42" x2="515" y2="42" class="line" marker-end="url(#arrow)"/>
+  <rect x="535" y="0" width="180" height="82" rx="16" class="orange"/><text x="593" y="36" class="label">a+b = 5</text><text x="583" y="62" class="small">2 + 3 = 5</text>
+</g>
+<rect x="100" y="221" width="715" height="54" rx="14" fill="#ffffff" stroke="#d4dee8" stroke-width="2"/>
+<text x="128" y="255" class="math">2a+b = 2×2+3 = 7</text><text x="418" y="254" class="small">Même lettres, autre calcul.</text>
+</svg>
