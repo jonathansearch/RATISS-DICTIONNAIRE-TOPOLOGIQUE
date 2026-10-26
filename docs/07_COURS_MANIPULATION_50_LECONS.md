@@ -7,22 +7,24 @@
 
 ## Parcours visuel
 
-![Carte visuelle des 50 leçons, du calcul simple à la formalisation RATISS](assets/cours50/00_parcours_50.svg)
+![Carte visuelle des 50 leçons, du calcul simple à la formalisation RATISS](assets/cours50/png/00_parcours_50.png)
 
 *Figure 1 — Le parcours complet. Les nombres de leçons indiquent la progression, pas une obligation de vitesse.*
 
 ### Navigation rapide
 
-- [Bloc 1 — Calculs de base (1–5)](#bloc-1)
-- [Bloc 2 — Objets et ensembles (6–10)](#bloc-2)
-- [Bloc 3 — Relations et graphes (11–15)](#bloc-3)
-- [Bloc 4 — Ponts et traductions (16–20)](#bloc-4)
-- [Bloc 5 — Simplexes et complexes (21–25)](#bloc-5)
-- [Bloc 6 — Bord, cycle, homologie (26–30)](#bloc-6)
-- [Bloc 7 — Betti et comptages (31–35)](#bloc-7)
-- [Bloc 8 — Distances et échelle (36–40)](#bloc-8)
-- [Bloc 9 — Persistance et signatures (41–45)](#bloc-9)
-- [Bloc 10 — Formalisation RATISS (46–50)](#bloc-10)
+Les figures intégrées sont en PNG pour mieux s’ouvrir sur téléphone; leurs sources vectorielles SVG restent dans `assets/cours50/`.
+
+- Bloc 1 — Calculs de base (1–5)
+- Bloc 2 — Objets et ensembles (6–10)
+- Bloc 3 — Relations et graphes (11–15)
+- Bloc 4 — Ponts et traductions (16–20)
+- Bloc 5 — Simplexes et complexes (21–25)
+- Bloc 6 — Bord, cycle, homologie (26–30)
+- Bloc 7 — Betti et comptages (31–35)
+- Bloc 8 — Distances et échelle (36–40)
+- Bloc 9 — Persistance et signatures (41–45)
+- Bloc 10 — Formalisation RATISS (46–50)
 
 
 > **Important :** le document accepté [00 — Notation transdisciplinaire v0.1](00_NOTATION_TOPOLOGIQUE_TRANSDISCIPLINAIRE_V0_1.md) reste inchangé. Ce cours apprend à la lire et à s’en servir. Les exemples de circuits, de mouvement et les petits nombres sont des exercices pédagogiques, **pas de nouvelles lois RATISS ni des preuves physiques**. On ne donne pas une formule à une nouvelle hypothèse sans travailler d’abord l’hypothèse et sa source.
@@ -48,7 +50,6 @@ Si tu es fatigué par l’électricité, Arduino, C/C++ ou l’anglais, fais seu
 
 ---
 
-<a id="bloc-1"></a>
 # Bloc 1 — Reprendre les bases sans honte (leçons 1 à 5)
 
 ## Leçon 1 — Une lettre peut représenter un nombre
@@ -57,7 +58,7 @@ Si tu es fatigué par l’électricité, Arduino, C/C++ ou l’anglais, fais seu
 
 **Exemple guidé :** si `a=2` et `b=3`, alors `a+b = 2+3 = 5`. Si `a=5` et `b=1`, alors `a+b=6`. La lettre reste la même; la valeur donnée change.
 
-![Calcul visuel : a vaut 2, b vaut 3, donc a plus b vaut 5](assets/cours50/01_a_plus_b.svg)
+![Calcul visuel : a vaut 2, b vaut 3, donc a plus b vaut 5](assets/cours50/png/01_a_plus_b.png)
 
 *Figure 2 — On remplace chaque lettre par sa valeur avant de calculer.*
 
@@ -115,7 +116,6 @@ Sans regarder, peux-tu expliquer : (a) ce que vaut `a+b` si `a=2,b=3`; (b) pourq
 
 ---
 
-<a id="bloc-2"></a>
 # Bloc 2 — Objets, domaines et relations (leçons 6 à 10)
 
 ## Leçon 6 — Une phrase contient des objets et une relation
@@ -170,10 +170,9 @@ Sans regarder, peux-tu expliquer : (a) ce que vaut `a+b` si `a=2,b=3`; (b) pourq
 
 ---
 
-<a id="bloc-3"></a>
 # Bloc 3 — Relations et graphes (leçons 11 à 15)
 
-![Une phrase devient un ensemble d’objets, une liste de relations et un graphe](assets/cours50/02_phrase_au_graphe.svg)
+![Une phrase devient un ensemble d’objets, une liste de relations et un graphe](assets/cours50/png/02_phrase_au_graphe.png)
 
 *Figure 3 — Le graphe ne contient que les liens déclarés dans la phrase.*
 
@@ -231,7 +230,6 @@ Sans regarder, peux-tu expliquer : (a) ce que vaut `a+b` si `a=2,b=3`; (b) pourq
 
 ---
 
-<a id="bloc-4"></a>
 # Bloc 4 — Relier des domaines et traduire (leçons 16 à 20)
 
 ## Leçon 16 — Distinguer analogie et relation observée
@@ -286,10 +284,9 @@ La notation acceptée donne : `K_(A⋈B)=Cl(K_A ⊔ K_B ∪ Γ_AB^r)`. Pour l’
 
 ---
 
-<a id="bloc-5"></a>
 # Bloc 5 — Graphes, simplexes et complexes (leçons 21 à 25)
 
-![Comparaison d’un contour de graphe avec une face de complexe simplicial](assets/cours50/03_graphe_vs_complexe.svg)
+![Comparaison d’un contour de graphe avec une face de complexe simplicial](assets/cours50/png/03_graphe_vs_complexe.png)
 
 *Figure 4 — Un contour dessiné ne signifie pas automatiquement que son intérieur est une face.*
 
@@ -347,10 +344,9 @@ Dans les exemples usuels, `H₀/β₀` décrit les composantes, `H₁/β₁` les
 
 ---
 
-<a id="bloc-6"></a>
 # Bloc 6 — Bord, cycle et homologie (leçons 26 à 30)
 
-![Un cycle non rempli comparé au bord d’un triangle plein](assets/cours50/04_cycle_homologie.svg)
+![Un cycle non rempli comparé au bord d’un triangle plein](assets/cours50/png/04_cycle_homologie.png)
 
 *Figure 5 — Dans le modèle-jouet, remplir la face change la classe H1.*
 
@@ -408,7 +404,6 @@ En modulo 2, `∂₂[A,B,C]=[A,B]+[B,C]+[C,A]`.
 
 ---
 
-<a id="bloc-7"></a>
 # Bloc 7 — Nombres de Betti et comptages (leçons 31 à 35)
 
 ## Leçon 31 — `β₀` : compter les composantes
@@ -461,10 +456,9 @@ Considérons un graphe sans faces de dimension 2. Un carré simple contient un c
 
 ---
 
-<a id="bloc-8"></a>
 # Bloc 8 — Points, distances, mécanique et échelle (leçons 36 à 40)
 
-![Trois étapes d’une filtration de Vietoris–Rips et la barre de persistance du cycle](assets/cours50/05_vr_filtration.svg)
+![Trois étapes d’une filtration de Vietoris–Rips et la barre de persistance du cycle](assets/cours50/png/05_vr_filtration.png)
 
 *Figure 6 — Quand l’échelle augmente, une boucle peut apparaître puis se remplir.*
 
@@ -522,7 +516,6 @@ Dans l’exemple du carré de la leçon 39, la boucle apparaît quand les côté
 
 ---
 
-<a id="bloc-9"></a>
 # Bloc 9 — Persistance et signatures voisines (leçons 41 à 45)
 
 ## Leçon 41 — Calculer une durée de persistance
@@ -567,7 +560,7 @@ Le dictionnaire sépare notamment : `A_τ^norm(s)` (aire de trajectoire retardé
 
 ## Leçon 45 — Pourquoi `P_sig` demande toujours une question
 
-![Un nom historique P_sig peut renvoyer à plusieurs mesures différentes](assets/cours50/07_psig_types.svg)
+![Un nom historique P_sig peut renvoyer à plusieurs mesures différentes](assets/cours50/png/07_psig_types.png)
 
 *Figure 7 — Avant de comparer deux valeurs, vérifier le calcul canonique réellement utilisé.*
 
@@ -583,10 +576,9 @@ Le dictionnaire sépare notamment : `A_τ^norm(s)` (aire de trajectoire retardé
 
 ---
 
-<a id="bloc-10"></a>
 # Bloc 10 — Passer d’une phrase à une formalisation RATISS (leçons 46 à 50)
 
-![Le graphe d’interprétation, de la phrase au statut et à la provenance](assets/cours50/06_formalisation_pipeline.svg)
+![Le graphe d’interprétation, de la phrase au statut et à la provenance](assets/cours50/png/06_formalisation_pipeline.png)
 
 *Figure 8 — Si une étape est inconnue, l’indiquer « à définir » plutôt que l’inventer.*
 
